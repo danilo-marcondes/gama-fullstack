@@ -2,10 +2,16 @@ import Utils from '../src/service/Utils'
 
 import Home from './views/pages/Home'
 import Error404 from './views/pages/Error'
+import Login from './views/pages/Login'
+import RecuperaSenha from './views/pages/RecuperaSenha'
+import Cadastro from './views/pages/Cadastro'
 
 // routes
 let routes = {
-    '/' : Home
+    '/home' : Home,
+    '/login' : Login,
+    '/recuperar-senha' : RecuperaSenha,
+    '/novo-usuario' : Cadastro
 }
 
 const router = async () => {
