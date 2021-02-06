@@ -8,6 +8,7 @@ import Cadastro from './views/pages/Cadastro'
 
 // routes
 let routes = {
+    '/' : Home,
     '/home' : Home,
     '/login' : Login,
     '/recuperar-senha' : RecuperaSenha,
